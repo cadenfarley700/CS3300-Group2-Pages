@@ -1,5 +1,6 @@
 # Software Development Process
 # Product Description
+GT Marketplace provides a place for GT students to advertise listings for items for sale and buyers to browse listings to purchase.
 # Technologies Used
 * Spring Boot
 * Thymeleaf
