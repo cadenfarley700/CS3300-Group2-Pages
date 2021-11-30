@@ -224,6 +224,15 @@ The main interface between the software product and the users will be a GUI, whi
 Illustrated above is a flow chart of the application layout. Each page is represented by a box and actions/conditions are represented by arrows.
 
 
+### Project Models
+
+##### User
+![INSERT USER STUFF](https://github.gatech.edu/storage/user/42709/files/a4ecafdb-9e62-42cd-ab94-e9ea7198711f)
+
+##### InventoryItem
+![INSERT INVENTORYITEM STUFF](https://github.gatech.edu/storage/user/42709/files/c1920fa7-4661-4751-a6d0-7f98a2f559ec)
+
+
 ###  Quality Control
 
 #### Test Plan Quality
