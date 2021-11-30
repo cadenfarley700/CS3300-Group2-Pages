@@ -20,4 +20,4 @@ GT Marketplace provides a place for GT students to advertise listings for items 
 * Thien: Backend dev, Email functionality, Chatroom Functionality
 * Caden: UI, login, posts, and homepage
 
-[test link](testing.md]
+[test link](testing.md)
