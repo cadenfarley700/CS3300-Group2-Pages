@@ -13,6 +13,7 @@ GT Marketplace provides a place for GT students to advertise listings for items 
 
 ## Project Layout
 ![Project 3 Flowchart drawio](https://user-images.githubusercontent.com/35010922/143979467-52e7b0f5-1272-40eb-92ab-cb8b89d6d3b7.png)
+
 Illustrated above is a flow chart of the application layout. Each page is represented by a box and actions/conditions are represented by arrows.
 
 
@@ -170,22 +171,55 @@ The main interface between the software product and the users will be a GUI, whi
     7. Evolution 6: Integration and Testing
 
 
+### Assignment 3 STUFF HERE PLEASE
 
 
 
+###  Quality Control (Assignement 4)
+
+#### Test Plan Quality
+We will ensure that tests are comprehensive by coming up with all possible solutions. We will be sure to add multiple tests for the same feature that test in different ways so that we can be absolutely sure there are no bugs, or as few bugs as possible. 
+
+#### Adequacy Criterion
+We created all of our tests before we actually begin the testing phase. After we finish those, we will begin fixing the bugs we find. As we fix the bugs, we create new tests if our changes are substantial enough for that to be necessary. We continued testing until we are passing.
+
+#### Bug Tracking
+We utilize a Google Sheets file that we all have access to via Google Drive to track bugs and enhancement requests. There will be a column for name, description, source, status, person assigned to, and resolution. When we created new entries, we will always filled out every column so that our group members have as much information as possible.
 
 
+### Test Strategy (Assignment 4)
 
+#### Testing Process
+We wrote unit tests first to make sure every function works as expected. Once each module is verified to be functional on its own, we continued to integrate testing by writing more tests that verify the interaction between modules functions as expected.
+- Roles
+  - Unit Testing: Caden, Dilip, Thien
+  - Integration Testing: Drew, Alex 
 
+####Technology
+We started utilzing the JUnit framework for unit testing and MockMvc for UI testing. However, towards the end, we relied more on manual testing for functionality and UI.
 
-## Software Development Process
-We used evolutionary prototyping as our lifecycle model. For our project, this model makes the most sense because most of the features listed below depend on each other. We focused more on producing iterative prototypes than assembling it modularly for this reason.
 
 ## Team Contribution
-* Alex: Datastore and S3 backend, Image upload, misc. UI
-* Andrew: Frontend dev, Homepage UI
-* Dilip: Backend dev, Filter Search, Edit/Delete Post, Email functionality
-* Thien: Backend dev, Email functionality, Chatroom Functionality
-* Caden: UI, login, posts, and homepage
+* Alex: 
+  * Datastore and S3 Backend 
+  * Image Upload
+  * Misc. UI
+* Andrew: 
+  * Frontend Development 
+  * Homepage UI
+* Dilip: 
+  * Backend Development 
+  * Filter Search
+  * Edit/Delete Post
+  * Email Functionality
+* Thien: 
+  * Backend Development 
+  * Email Functionality
+  * Chatroom Functionality
+* Caden: 
+  * Overall UI
+  * Login
+  * Posts
+  * Homepage
 
-[test link](testing.md)
+[Test Link](testing.md)
