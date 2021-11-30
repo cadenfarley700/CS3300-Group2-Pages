@@ -8,6 +8,10 @@ GT Marketplace provides a place for GT students to advertise listings for items 
 * Browse all listings or filter listings by any of the aforementioned fields
 * Message a seller through the website
 
+## Project Layout
+![Project 3 Flowchart drawio](https://user-images.githubusercontent.com/35010922/143979467-52e7b0f5-1272-40eb-92ab-cb8b89d6d3b7.png)
+
+
 ## Introduction (Assignment 1)
 ### Executive Summary
 The GT Marketplace is a secure application for Georgia Tech students to post items that they would like to sell and exchange with other students. The purpose of this application is founded from the fact that many students throw away items that others are willing to buy and need. This application aims to provide a bridge for these two types of students to communicate. The GT Marketplace will only allow Georgia Tech students to access the application through verification of GTID and Georgia Tech email during registration. The GT Marketplace itself will have the following features: a home page with a display of all the available items, a page that displays the users items and allows the user to edit or delete items they have posted, a filter search page to search for specific items, and messages page that will allow a user to send an email to a specific user to contact them about an item.
