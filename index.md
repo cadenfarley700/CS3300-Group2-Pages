@@ -9,14 +9,27 @@
 The GT Marketplace is a secure application for Georgia Tech students to post items that they would like to sell and exchange with other students. The purpose of this application is founded from the fact that many students throw away items that others are willing to buy and need. This application aims to provide a bridge for these two types of students to communicate. The GT Marketplace will only allow Georgia Tech students to access the application through verification of GTID and Georgia Tech email during registration. The GT Marketplace itself will have the following features: a home page with a display of all the available items, a page that displays the users items and allows the user to edit or delete items they have posted, a filter search page to search for specific items, and messages page that will allow a user to send an email to a specific user to contact them about an item.
 
 #### Definitions and Acronyms
-| Acronym | Definition |
+<!-- | Acronym | Definition |
 | ------ | ------ |
 | GT Marketplace | Georgia Tech Marketplace |
 | Evolution | Version of the project that is being worked on |
 | Maven | 	Builds java projects as well as maintains additional jars and dependencies the system requires |
 | Spring Boot | Creates standalone applications that will run independent of an external web server |
 | Google Cloud Datastore | Highly scalable NoSQL database for building applications |
-| POM | Project Object Model |
+| POM | Project Object Model | -->
+
+- GT Marketplace
+  - Georgia Tech Marketplace
+- Evolution
+  - Version of the project that is being worked on
+- Maven
+  - Builds java projects as well as maintains additional jars and dependencies the system requires
+- Spring Boot
+  - Creates standalone applications that will run independent of an external web server
+- Google Cloud Datastore
+  - Highly scalable NoSQL database for building applications
+- POM
+  - Project Object Model
 
 
 ### Management Structure
@@ -25,14 +38,39 @@ The GT Marketplace is a secure application for Georgia Tech students to post ite
 The lifecycle for the project at the top level will take an Evolutionary prototyping life cycle. The initial goal will be to develop a basic evolution that contains the basic functionalities of the GT Marketplace. Then, additional features will be added to the basic evolution during phases of the project.  Additional features that will be added include the following: edit/delete functionality of items, adding new items, filter search for specific items, and email functionality.. Between each evolution, there will be an intensive testing and integration phase to ensure the GT Marketplace functions at the top level. At the individual level, the project will follow a Waterfall prototyping lifecycle. Each person will be tasked with a portion of the application, and will be responsible for developing requirements, designing the framework, implementing the design, verifying the functionality, and maintaining the code.
 
 #### Roles and Responsibilites
-| Roles | Responsibilities |
+<!-- | Roles | Responsibilities |
 | ------ | ------ |
 | Project Manager | Make sure milestones are being accomplished in a timely fashion. Delegates tasks to individuals best suited and skilled to complete them. Adjust project schedule and goals as needs and external factors relating to the project change. |
 | Planning and Tracking Lead | Compare the progress of the project to the projected project timeline. Work with the project manager to adjust the project schedule if needed. Make estimations on how long each task is supposed to take. |
 | Requirements Lead | Develop top level requirements for the project and individual requirements for the individual tasks. Submit the requirement definition assignment document upon completion. Adjust requirements based on time and feasibility as project progresses. |
 | Design Lead | Develop the master design for the web application. Communicate the design to each team member so that the team has unified vision. Adjust initial design plan as needed taking into individual/consumer feedback and time constraints. |
 | Implimentation Lead | Ensure that the application being developed is satisfying the requirements set. Hold code reviews with the team to make sure all members know how each aspect of the project works. Make sure that all code is being documented, commented, and developed in the most efficient way possible. |
-| Quality Assurance Lead | Develop test cases to ensure the functionality of the developed code. Ensure the teams is using the best industry-acceptable practices. Make sure that the team is meeting expectations and deadlines. |
+| Quality Assurance Lead | Develop test cases to ensure the functionality of the developed code. Ensure the teams is using the best industry-acceptable practices. Make sure that the team is meeting expectations and deadlines. | -->
+
+- Project Manager 
+  - Make sure milestones are being accomplished in a timely fashion. 
+  - Delegates tasks to individuals best suited and skilled to complete them. 
+  - Adjust project schedule and goals as needs and external factors relating to the project change.
+- Planning and Tracking Lead 
+  - Compare the progress of the project to the projected project timeline. 
+  - Work with the project manager to adjust the project schedule if needed. 
+  - Make estimations on how long each task is supposed to take.
+- Requirements Lead
+  - Develop top level requirements for the project and individual requirements for the individual tasks. 
+  - Submit the requirement definition assignment document upon completion. 
+  - Adjust requirements based on time and feasibility as project progresses.
+- Design Lead
+  - Develop the master design for the web application. 
+  - Communicate the design to each team member so that the team has unified vision. 
+  - Adjust initial design plan as needed taking into individual/consumer feedback and time constraints.
+- Implimentation Lead 
+  - Ensure that the application being developed is satisfying the requirements set. 
+  - Hold code reviews with the team to make sure all members know how each aspect of the project works. 
+  - Make sure that all code is being documented, commented, and developed in the most efficient way possible.
+- Quality Assurance Lead 
+  - Develop test cases to ensure the functionality of the developed code. 
+  - Ensure the teams is using the best industry-acceptable practices. 
+  - Make sure that the team is meeting expectations and deadlines.
 
 #### Communication
 For the duration of the project, the team will meet weekly Sundays at 2pm to discuss the progress for the week, code reviews, timeline changes, errors, etc. This formal weekly meeting will be either in-person (meet at CULC) or virtual (discord call) depending on the team’s availability for that week. Towards the end of the project, the team will be meeting twice a week with the second meeting time to be scheduled later.
@@ -45,13 +83,35 @@ For formal weekly meetings, meeting minutes will be taken and a master document 
 ### Risk Management
 
 #### Risk Identification
-| Risk | Probability | Severity | Description |
+<!-- | Risk | Probability | Severity | Description |
 | ------ | :-----: | :-----: | ------ |
 | Individual Schedules | HIGH | HIGH | Team members each have different schedules which might conflict with project deadlines |
 | Communication Issues | MEDIUM | HIGH | Team might have communication issues regarding the scope of each individual’s work |
 | Learning Curves (Ramp Up Periods) | HIGH | LOW | Each member of the team will need to ramp up with the specified platforms for the project (i.e. SpringBoot, Maven, etc) |
 | Poor Code Quality | MEDIUM | HIGH | Each individual might have different coding standards which might lead to poor documentation and errors when code is taken over by another member |
-| Unpredictable Circumstances | LOW | LOW | Extenuating family circumstances, medical emergencies, and other incidents may occur which will cause the workload to be distributed to other members of the project |
+| Unpredictable Circumstances | LOW | LOW | Extenuating family circumstances, medical emergencies, and other incidents may occur which will cause the workload to be distributed to other members of the project | -->
+
+- Individual Schedules 
+  - HIGH Probability
+  - HIGH Severity
+  - Team members each have different schedules which might conflict with project deadlines
+- Communication Issues
+  - MEDIUM Probability
+  - HIGH Severity
+  - Team might have communication issues regarding the scope of each individual’s work
+- Learning Curves (Ramp Up Periods) 
+  - HIGH Probability
+  - LOW Severity
+  - Each member of the team will need to ramp up with the specified platforms for the project (i.e. SpringBoot, Maven, etc) 
+- Poor Code Quality 
+  - MEDIUM Probability
+  - HIGH Severity
+  - Each individual might have different coding standards which might lead to poor documentation and errors when code is taken over by another member
+- Unpredictable Circumstances 
+  - LOW Probability
+  - LOW Severity
+  - Extenuating family circumstances, medical emergencies, and other incidents may occur which will cause the workload to be distributed to other members of the project
+
 
 #### Mitigation Plan
 1. Individual Schedules
