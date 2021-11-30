@@ -93,7 +93,8 @@ For formal weekly meetings, meeting minutes will be taken and a master document 
 13. Project Completion/Presentation
 
 #### Schedule
-INSERT GANTT CHART
+![INSERT GANTT CHART](https://user-images.githubusercontent.com/62609528/143985976-d40fb12f-a316-4970-9016-72f805c090c6.PNG)
+The above Gantt chart outlines our schedule for project 2 and the intended start and end dates for the each of the milestones we developed.
 
 #### Tracking and Control
 Project schedule will be tracked weekly during our formal meetings. During these meetings, each team member will give a progress report on their accomplishments/setbacks for the week. From the report, the team will decide to accelerate or delay the project schedule accordingly.
@@ -177,14 +178,28 @@ We utilize a Google Sheets file that we all have access to via Google Drive to t
 
 ### Test Strategy
 
-##### Testing Process
+#### Testing Process
 We wrote unit tests first to make sure every function works as expected. Once each module is verified to be functional on its own, we continued to integrate testing by writing more tests that verify the interaction between modules functions as expected.
 - Roles
   - Unit Testing: Caden, Dilip, Thien
   - Integration Testing: Drew, Alex 
 
-##### Technology
+#### Technology
 We started utilzing the JUnit framework for unit testing and MockMvc for UI testing. However, towards the end, we relied more on manual testing for functionality and UI.
+
+#### Manual Tests
+Below are some of the manual test performed:
+- Registration 
+  - Checked if email field of registration page ended in "@gatech.edu"
+  - Checked if GTID field of registration page started with "903" and has 9 digits
+- Adding/Deleting/Editing Post Functionality
+  - Added single title field to determine if inventoryItem was posted into the repository and displayed on the Home Page and the My Post Page
+  - Performed editing and deleting on items while printing the full inventory repository is printed to the console on each action
+- Filter Search
+  - Each addition of inventoryItem field was tested and sorted on respective characteristics to see if the correct data was read from the object
+- Email Functionality
+  - Hard coded default email recipient to ensure proper delivery of email
+  - Changed hard coded recipient to be th einput of text box entry
 
 
 ### Team Contribution
