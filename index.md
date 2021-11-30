@@ -18,7 +18,7 @@ The GT Marketplace is a secure application for Georgia Tech students to post ite
 
 ### Definitions and Acronyms
 | Acronym | Definition |
-| --- | --- |
+| :------: | :------: |
 | GT Marketplace | Georgia Tech Marketplace |
 | Evolution | Version of the project that is being worked on |
 | Maven | 	Builds java projects as well as maintains additional jars and dependencies the system requires |
