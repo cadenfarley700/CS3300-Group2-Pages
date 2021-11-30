@@ -3,21 +3,7 @@
 ###### Group 2: Alex Puckhaber, Andrew Harris, Dilip Paruchuri, Thien Dinh-Do, Caden Farley
 
 
-### Project Description
-GT Marketplace provides a place for GT students to advertise listings for items for sale and buyers to browse listings to purchase. Users can:
-* Register with a valid GT email and GTID
-* Create listings that contain a title, description, price, category, and image
-* View or delete listings they have created
-* Browse all listings or filter listings by any of the aforementioned fields
-* Message a seller through the website
-
-## Project Layout
-![Project 3 Flowchart drawio](https://user-images.githubusercontent.com/35010922/143979467-52e7b0f5-1272-40eb-92ab-cb8b89d6d3b7.png)
-
-Illustrated above is a flow chart of the application layout. Each page is represented by a box and actions/conditions are represented by arrows.
-
-
-### Introduction (Assignment 1)
+### Introduction
 
 #### Executive Summary
 The GT Marketplace is a secure application for Georgia Tech students to post items that they would like to sell and exchange with other students. The purpose of this application is founded from the fact that many students throw away items that others are willing to buy and need. This application aims to provide a bridge for these two types of students to communicate. The GT Marketplace will only allow Georgia Tech students to access the application through verification of GTID and Georgia Tech email during registration. The GT Marketplace itself will have the following features: a home page with a display of all the available items, a page that displays the users items and allows the user to edit or delete items they have posted, a filter search page to search for specific items, and messages page that will allow a user to send an email to a specific user to contact them about an item.
@@ -33,7 +19,7 @@ The GT Marketplace is a secure application for Georgia Tech students to post ite
 | POM | Project Object Model |
 
 
-### Management Structure (Assignment 1)
+### Management Structure
 
 #### Project Lifecycle
 The lifecycle for the project at the top level will take an Evolutionary prototyping life cycle. The initial goal will be to develop a basic evolution that contains the basic functionalities of the GT Marketplace. Then, additional features will be added to the basic evolution during phases of the project.  Additional features that will be added include the following: edit/delete functionality of items, adding new items, filter search for specific items, and email functionality.. Between each evolution, there will be an intensive testing and integration phase to ensure the GT Marketplace functions at the top level. At the individual level, the project will follow a Waterfall prototyping lifecycle. Each person will be tasked with a portion of the application, and will be responsible for developing requirements, designing the framework, implementing the design, verifying the functionality, and maintaining the code.
@@ -56,7 +42,7 @@ Informal communication will take place through our teams Discord channel. The ch
 For formal weekly meetings, meeting minutes will be taken and a master document with all the meeting summaries will be available to all team members. For informal meetings, a quick update will be given about the informal meeting at that week’s formal meeting and will be documented then.
 
 
-### Risk Management (Assignment 1)
+### Risk Management
 
 #### Risk Identification
 | Risk | Probability | Severity | Description |
@@ -89,7 +75,7 @@ For formal weekly meetings, meeting minutes will be taken and a master document 
    - Meet with that individual later to make sure progress made by the rest of the team is integrable with the individual’s work
 
 
-### Planning and Control (Assignment 1)
+### Planning and Control
 
 #### Milestones
 1. Project Planning and Approval
@@ -117,7 +103,7 @@ To measure the quality and functionality of the project, the formal meetings wil
 Each team member is expected to track the number of hours the expect to perform on each task. Each individual will report this at the weekly team meeting and the group will then decide if they will need to allocate more resources (manpower) to a task or not. 
 
 
-### Technologies to be Used (Assignment 1)
+### Technologies to be Used
 - Google Cloud Platform
 - AWS S3 Bucket
 - Backend
@@ -131,7 +117,7 @@ Each team member is expected to track the number of hours the expect to perform 
   - Google DataStore
 
 
-### User Requirements (Assignment 2)
+### User Requirements
 
 #### Software Interfaces
 1. Apache Maven								
@@ -171,11 +157,13 @@ The main interface between the software product and the users will be a GUI, whi
     7. Evolution 6: Integration and Testing
 
 
-### Assignment 3 STUFF HERE PLEASE
+### Project Layout
+![Project 3 Flowchart drawio](https://user-images.githubusercontent.com/35010922/143979467-52e7b0f5-1272-40eb-92ab-cb8b89d6d3b7.png)
+
+Illustrated above is a flow chart of the application layout. Each page is represented by a box and actions/conditions are represented by arrows.
 
 
-
-###  Quality Control (Assignement 4)
+###  Quality Control
 
 #### Test Plan Quality
 We will ensure that tests are comprehensive by coming up with all possible solutions. We will be sure to add multiple tests for the same feature that test in different ways so that we can be absolutely sure there are no bugs, or as few bugs as possible. 
@@ -187,19 +175,19 @@ We created all of our tests before we actually begin the testing phase. After we
 We utilize a Google Sheets file that we all have access to via Google Drive to track bugs and enhancement requests. There will be a column for name, description, source, status, person assigned to, and resolution. When we created new entries, we will always filled out every column so that our group members have as much information as possible.
 
 
-### Test Strategy (Assignment 4)
+### Test Strategy
 
-#### Testing Process
+##### Testing Process
 We wrote unit tests first to make sure every function works as expected. Once each module is verified to be functional on its own, we continued to integrate testing by writing more tests that verify the interaction between modules functions as expected.
 - Roles
   - Unit Testing: Caden, Dilip, Thien
   - Integration Testing: Drew, Alex 
 
-####Technology
+##### Technology
 We started utilzing the JUnit framework for unit testing and MockMvc for UI testing. However, towards the end, we relied more on manual testing for functionality and UI.
 
 
-## Team Contribution
+### Team Contribution
 * Alex: 
   * Datastore and S3 Backend 
   * Image Upload
