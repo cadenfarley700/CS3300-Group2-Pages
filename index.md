@@ -294,4 +294,3 @@ Below are some of the manual test performed:
   * Posts
   * Homepage
 
-[Test Link](testing.md)
